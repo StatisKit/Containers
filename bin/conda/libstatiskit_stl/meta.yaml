@@ -1,0 +1,17 @@
+package:
+  name: libstatiskit_stl
+  version: "1.0.0"
+
+source:
+  path: ../../..
+
+build:
+  number: 0
+
+about:
+  home: http://statiskit-stl.readthedocs.org
+  license: Apache License 2.0
+
+requirements:
+  build:
+    - libtoolchain
