@@ -26,7 +26,6 @@ requirements:
   run:
     - {{ pin_compatible('libstatiskit_stl', exact=True) }}
     - python
-    - libboost_python-dev
 
 test:
   requires:
